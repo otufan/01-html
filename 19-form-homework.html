@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="">
+    <table>
+        <tr>
+            <td><label for="ad" >Adi</label></td>
+            <td><input type="text" name="ad" id="ad" minlength="3" maxlength="30" required></td>
+            <td rowspan="2"><label >Hobiler</label></td>
+            <td rowspan="2"><input type="checkbox" name="Futbol" id="Futbol"><label for="Futbol">Futbol</label><br>
+
+
+                
+                <input type="checkbox" name="Voleybol" id="Voleybol"><label for="Voleybol">Voleybol</label><br>
+                <input type="checkbox" name="Basketbol" id="Basketbol"><label for="Basketbol">Voleybol</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="soyad" >Soyadi</label></td>
+            <td><input type="text" name="soyad" id="soyad" minlength="3" maxlength="30" required></td>
+           
+            
+        </tr>
+        <tr>
+            <td><label for="cinsiyet" >Cinsiyeti</label></td>
+            <td><input type="radio" name="cinsiyet" id="cinsiyetE" /><label for="cinsiyetE">Bay</label><input type="radio" name="cinsiyet" id="cinsiyetK" /><labelfor="cinsiyetK">Bayan</label
+              ></td>
+            <td><label for="profil" >Profil Fotografi</label></td>
+            <td><input type="file" name="profil" id="profil" required/></td>
+        </tr>
+        <tr>
+            <td><label for="ilce" >Ilce</label></td>
+            <td><select name="ilce" id="ilce"><option></option>
+                <option value="1">Bakirkoy</option>
+                <option value="2">Mecidiyekoy</option>
+                <option value="3">Uskudar</option>
+            </select></td>
+            <td><label for="dogum" >Dogum Tarihi</label></td>
+            <td><input type="date" name="dogum" id="dogum" required max="2004-01-01"/></td>
+        </tr>
+        <tr>
+            <td><label for="eposta" >Eposta</label></td>
+            <td><input type="eposta" name="eposta" id="eposta" required></td>
+            <td rowspan="3"><label for="adres" >Adres</label></td>
+            <td rowspan="3"><textarea name="adres" id="adres" cols="25" rows="8"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="url" >Kisisel Site</label></td>
+            <td><input type="url" name="url" id="url" /></td>         
+            
+        </tr>
+        <tr>
+            <td><label for="telefon" >Telefon</label></td>
+            <td><input type="tel" name="telefon" id="telefon" required></td>                       
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><input type="submit" value="Kayit Ol"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
